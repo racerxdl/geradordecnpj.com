@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Gerador de CNPJ - Como Gerar CNPJ 's Válidos para Testes de Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="language" content="PT-BR"/>
+    <meta name="description" content="Clique e acesse o gerador de CNPJ, desenvolvido com o objetivo de gerar CNPJ 's válidos para apoiar programadores em testes de softwares."/>
+    <link rel="canonical" href="https://www.geradordecnpj.com"/>
+    <meta property="og:url" content="https://www.geradordecnpj.com"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Gerador de CNPJ - Como Gerar CNPJs Válidos"/>
+    <meta property="og:description" content="Acesse nosso gerador de CNPJ, desenvolvido com o objetivo de gerar CNPJ's válidos para apoiar programadores em testes de softwares."/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.teal-red.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="js/page.js"></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: "ca-pub-0080375940489719",
+              enable_page_level_ads: true
+         });
+    </script>
+  </head>
+  <body onLoad="generateCNPJ()">
+    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Gerador de CNPJ</span>
+        </div>
+      </header>
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <h4 id="unmaskedCNPJ"></h4>
+            <h4 id="maskedCNPJ"></h4>
+            <br>
+            <br>
+            <div style="text-align: center; width: 100%">
+              <button class="btn btn-lg btn-success" type="button" onclick="generateCNPJ()">Gerar Novo CNPJ</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row text-center justify-content-center section-intro">
+              Atenção! Este gerador de CNPJ tem como proposta auxiliar
+programadores, analistas, testadores e estudantes a gerar CNPJ 's
+válidos para utilização em testes de aplicações em desenvolvimento.
+A má utilização desta informação é de total responsabilidade do usuário.
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="bg-gray text-light footer-long">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12" style="text-align: center">
+              <span class="h6">Creative Commons - https://github.com/racerxdl/geradordecnpj.com</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
